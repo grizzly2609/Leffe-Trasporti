@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti - Leffe Trasporti</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Aggiunta del font awesome per le icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="1.png" alt="Logo Leffe Trasporti" class="logo" onclick="location.href='index.html';">
+            <button class="menu-toggle" aria-label="Apri menu">☰</button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="chi-siamo.html">Chi Siamo</a></li>
+                    <li><a href="servizi.html">Servizi</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <h1>Contattaci</h1>
+                <p>Per qualsiasi informazione, non esitare a contattarci ai seguenti recapiti:</p>
+                <div class="contact-info">
+                    <p><i class="fa fa-phone"></i> Tel: <a href="tel:+393290236019">+39 329 023 6019</a></p>
+                    <p><i class="fa fa-envelope"></i> Email: <a href="mailto:amministrazione@leffetrasporti.it">amministrazione@leffetrasporti.it</a></p>
+                </div>
+                <div class="opening-hours">
+                    <h2>Orari di Apertura</h2>
+                    <p>Lunedì - Venerdì: 8:30 - 17:30</p>
+                    <p>Sabato - Domenica: Chiuso</p>
+                </div>
+                <!-- Pulsante Contattaci Ora -->
+                <a href="mailto:amministrazione@leffetrasporti.it" class="contact-button">Contattaci Ora</a>
+                <!-- Mappa interattiva -->
+                <div class="map">
+                    <h2>Dove Siamo</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1172.8679523445288!2d8.8651940692547!3d45.75517691574601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786718a0ff9e02d%3A0x8e2d5183e2d7e3b9!2sVia%20Pavia%2C%206%2C%2021049%20Tradate%20VA!5e0!3m2!1sit!2sit!4v1708889349704!5m2!1sit!2sit"
+                        width="100%" height="300" style="border:0; margin-top: 20px;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Leffe Trasporti. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
